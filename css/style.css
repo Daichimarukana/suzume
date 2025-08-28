@@ -67,6 +67,11 @@ header h1 {
     color: #FFFFFF;
 }
 
+.top a{
+    color: #e8fefc;
+    text-decoration: none;
+}
+
 main {
     background-color: #FFFFFF;
     border-radius: 16px;
@@ -249,7 +254,7 @@ main .qa-box .gct-4 {
 }
 
 .dlbutton a {
-    font-family: 'BIZ UDGothic', sans-serif;
+    font-family: 'BIZ UDGothic', 'Inter', 'Noto Sans JP', sans-serif;
     margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
