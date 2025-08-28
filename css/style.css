@@ -1,0 +1,291 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Sans+JP:wght@100..900&display=swap');
+
+body {
+    background-color: #2e5773;
+    margin: 0px;
+    font-family: 'Inter', 'Noto Sans JP', sans-serif;
+}
+
+header {
+    z-index: 1;
+    position: fixed;
+    top: 38px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    width: calc(100% - 32px);
+    height: 48px;
+    background: rgba(46, 87, 115, 0.3);
+    backdrop-filter: blur(10px) saturate(100%);
+    border: solid 1px #2e5773;
+    display: flex;
+    border-radius: 24px;
+}
+
+header img {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+header h1 {
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 48px;
+    color: #FFFFFF;
+    margin: 0px 0px 0px 8px;
+}
+
+.top {
+    margin: 128px auto 32px auto;
+    width: 480px;
+    text-align: center;
+}
+
+.top img {
+    width: 256px;
+    height: 256px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.top .date {
+    font-size: 14px;
+    color: #e8fefc;
+    margin: 8px auto;
+}
+
+.top h1 {
+    font-size: 64px;
+    margin: 16px auto;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+.top p {
+    color: #FFFFFF;
+}
+
+main {
+    background-color: #FFFFFF;
+    border-radius: 16px;
+    padding: 24px;
+    margin: 32px auto;
+    width: calc(640px - 48px);
+}
+
+main h1 {
+    margin-top: 0px;
+    color: #0a0a0a;
+    font-size: 32px;
+}
+
+main p {
+    margin-top: 0px;
+    color: #0a0a0a;
+    font-size: 16px;
+}
+
+main h2 {
+    margin-top: 0px;
+    margin-bottom: 8px;
+    color: #0a0a0a;
+    font-size: 24px;
+}
+
+main hr {
+    height: 0;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    padding: 0;
+    border: 0;
+    border-top: 1px dashed #2e5773;
+}
+
+main span {
+    color: #2e5773;
+    font-weight: bold;
+}
+
+main .qa-box {
+    width: auto;
+    border: solid 1px #2e5773;
+    ;
+    border-radius: 6px;
+    padding: 0px;
+}
+
+main .qa-box .name {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+main .qa-box hr {
+    height: 0;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    padding: 0;
+    border: 0;
+    border-top: 1px solid #2e5773;
+}
+
+main .qa-box .question {
+    color: #0a0a0a;
+    margin: 8px 16px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+main .qa-box .user {
+    color: #0a0a0a;
+    margin: 16px;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+main .qa-box .gct-4 {
+    color: #2e5773;
+    margin: 16px;
+    font-size: 14px;
+}
+
+
+.talkbox {
+    width: auto;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 20px;
+    background-color: #313338;
+    border-radius: 6px;
+}
+
+.talkbox p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 42px;
+    font-size: 16px;
+    font-family: 'Noto Sans JP', sans-serif;
+    text-align: left;
+    color: #d1d1d1;
+}
+
+.talkbox .flex {
+    display: flex;
+}
+
+.talkbox img {
+    margin-top: 10px;
+    margin-right: 10px;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+
+.talkbox .name {
+    margin-top: 10px;
+    font-size: 20px;
+    font-family: 'Noto Sans JP', sans-serif;
+    text-align: left;
+    color: #d1d1d1;
+}
+
+.talkbox .date {
+    margin-left: 10px;
+    margin-top: 18px;
+    font-size: 12px;
+    font-family: 'Noto Sans JP', sans-serif;
+    text-align: left;
+    color: #949ba4;
+}
+
+.talkbox .bot {
+    margin-top: 16px;
+    height: 1em;
+    background-color: #5865f2;
+    padding: 8px;
+    padding-top: 2px;
+    margin-left: 10px;
+    color: #d1d1d1;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 10px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.talkbox hr {
+    height: 0;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    padding: 0;
+    border: 0;
+    border-top: 1px solid #abacb2;
+}
+
+.dlw {
+
+    margin-top: 32px;
+    margin-bottom: 16px;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    background-color: #E7E7E7;
+    border-radius: 6px;
+    padding: 3%;
+    color: #111111;
+    border: 1px solid #CCC;
+}
+
+.dlw p {
+    margin: 10px 0;
+    font-size: 24px;
+    text-align: center;
+    font-weight: bold;
+    color: #111111;
+}
+
+.dlbutton a {
+    font-family: 'BIZ UDGothic', sans-serif;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 160px;
+    height: 26px;
+    background-color: #0071E3;
+    border-radius: 25px;
+    color: #fff;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.1);
+    text-decoration: none;
+}
+
+.foo {
+    padding-top: 16px;
+    margin-left: 0px;
+    font-style: italic;
+    text-align: left;
+    color: rgb(245, 31, 117);
+    font-size: 18px;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 1080px) {
+    main{
+        width: auto;
+        margin-bottom: 0px;
+        border-radius: 15px 15px 0px 0px;
+    }
+    .top{
+        width: 90%;
+    }
+    .top h1{
+        font-size: 48px;
+    }
+}
